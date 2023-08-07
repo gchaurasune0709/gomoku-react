@@ -9,7 +9,7 @@ a {
     align-items: center;
     background-color: blue;
     color: white;
-    height: 20vh;
+    height: 10vh;
 }
 
 .login {
@@ -28,7 +28,7 @@ li:hover {
 }
 
 
-.login {
+.auth-page {
     margin-left: auto;
 }
 
