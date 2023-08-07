@@ -1,0 +1,31 @@
+/* styles for BoardConfig Component */
+
+.boardConfig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    display: none;
+}
+
+#size, button {
+    width: 450px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(62, 62, 247);
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+button {
+    margin-top: 100px;
+    cursor: pointer;
+}
