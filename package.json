@@ -1,5 +1,5 @@
 {
-  "name": "url-shortening",
+  "name": "Gomoku",
   "version": "0.1.0",
   "private": true,
   "test": "mocha",
