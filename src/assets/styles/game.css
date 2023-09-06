@@ -1,0 +1,96 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(19, 25px);
+    background-color: rgb(252, 186, 45);
+    width: 480px;
+    margin: 0% auto;
+    padding: 2px;
+    border-radius: 4px;
+}
+  
+.cell {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    border: 1px solid rgb(216, 189, 68);
+    background-color: gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.gameControls, .historyControl {
+    text-align: center;
+    margin-left: -100px;
+}
+
+.gameControls button, .historyControl button {
+    width: 80px;
+    font-size: 12pt;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.current_player {
+    text-align: center;
+}
+ 
+ /* color of black ball */
+ .black-ball, .white-ball {
+    background-color: black;
+    width: 22px;
+    height: 22px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .white-ball {
+    background-color: white;
+  }
+
+  /* style the info tag */
+  .info {
+    margin: 0px 45%;
+  }
+
+  /* styles for game log */
+  .log {
+    margin: 10px 5%;
+    display: flex;
+    width: 80%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .log-btn {
+    background-color: white;
+    color: blue;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    margin: 10px;
+  }
+
+  /* history section styles */
+  .whiteballp {
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+
+  .blackballp {
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+  }
